@@ -1,0 +1,48 @@
+/* Copy all styles from 0-styles.css here first */
+
+@import url('holberton_school-icon/holberton_school-icon.css');
+
+.what-we-do {
+  background-color: white;
+  color: black;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.what-we-do p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1.1em;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature {
+  width: 200px;
+  text-align: center;
+}
+
+.feature .icon {
+  font-size: 3em;
+  color: #FF6565;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  margin: 10px 0 5px;
+}
+
+.feature p {
+  font-size: 0.95em;
+  color: #444;
+}
