@@ -1,0 +1,7 @@
+.pentagon {
+  width: 60px;
+  height: 60px;
+  background-color: #FF6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  margin: 0 auto 15px;
+}
