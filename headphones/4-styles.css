@@ -1,0 +1,35 @@
+/* === Footer === */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #FF6565;
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
